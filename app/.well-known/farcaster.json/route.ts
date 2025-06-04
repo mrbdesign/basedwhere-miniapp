@@ -3,20 +3,19 @@ import { APP_URL } from "../../../lib/constants";
 
 export async function GET() {
   const farcasterConfig = {
-    // TODO: Add account association
     frame: {
       version: "1",
-      name: "Monad Farcaster MiniApp Template",
+      name: "BASEd Where ? Meme Generator",
       iconUrl: `${APP_URL}/images/icon.png`,
       homeUrl: `${APP_URL}`,
       imageUrl: `${APP_URL}/images/feed.png`,
       screenshotUrls: [],
       tags: ["monad", "farcaster", "miniapp", "template"],
-      primaryCategory: "developer-tools",
+      primaryCategory: "entertainment", // or "social"
       buttonTitle: "Launch Template",
       splashImageUrl: `${APP_URL}/images/splash.png`,
       splashBackgroundColor: "#ffffff",
-      webhookUrl: `${APP_URL}/api/webhook`,
+      webhookUrl: `${APP_URL}/api/frame`, // <-- This matches your frame endpoint!
     },
   };
 
