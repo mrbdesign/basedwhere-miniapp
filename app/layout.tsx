@@ -7,7 +7,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Monad Farcaster MiniApp Template",
+  title: "BASEd Where ? Meme Generator",
   description: "A template for building mini-apps on Farcaster and Monad",
 };
 

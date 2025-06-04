@@ -26,7 +26,7 @@ export function FarcasterActions() {
               className="bg-white text-black rounded-md p-2 text-sm"
               onClick={() =>
                 actions?.composeCast({
-                  text: "Check out this Monad Farcaster MiniApp Template!",
+                  text: "Check out this BASEd Where ? Meme Generator!",
                   embeds: [`${APP_URL}`],
                 })
               }
