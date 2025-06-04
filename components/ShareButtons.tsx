@@ -16,7 +16,7 @@ const ShareButtons: React.FC<ShareButtonsProps> = ({ memeUrl, location }) => {
       text: location
         ? `I'm based in ${location}! Made with the BASEd Where? Meme Generator.`
         : "Made with the BASEd Where? Meme Generator.",
-      media: [{ url: memeUrl, type: "image/png" }], // Attach the image as media
+      embeds: [memeUrl], // <-- fallback to embeds
     });
   };
 
